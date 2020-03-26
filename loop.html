@@ -18,6 +18,29 @@ while (i < 10) {
   i++;
 }
 document.write(tex);
+
+var count = 0;
+            
+            document.write("Starting Loop" + "<br />");
+            do {
+               document.write("Current Count : " + count + "<br />");
+               count++;
+            }
+            
+            while (count < 5);
+            document.write ("Loop stopped!");
+
+            var x = 1;
+         document.write("Entering the loop<br /> ");
+         
+         while (x < 20) {
+            if (x == 5) {
+               break;  
+            }
+            x = x + 1;
+            document.write( x + "<br />");
+         }         
+         document.write("Exiting the loop!<br /> ");
 </script>
 </body>
 </html>
